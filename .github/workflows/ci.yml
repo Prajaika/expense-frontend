@@ -5,6 +5,6 @@ jobs:
     uses: Prajaika/github-reusable-workflows/.github/workflows/ci.yml@main
  with:
       project_name: expense-frontend
-      npm_install: true
+      npm_install: false
     secrets: inherit
 
